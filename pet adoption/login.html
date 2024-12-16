@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pawfect Match - Register</title>
+</head>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bangers&family=Bokor&family=Borel&family=Cedarville+Cursive&family=Love+Ya+Like+A+Sister&family=Manrope:wght@200..800&family=Phetsarath:wght@400;700&family=Sevillana&display=swap" rel="stylesheet">
+<style>
+    *{
+        font-family: "Borel", cursive;
+        font-weight: 400;
+        font-style: normal;
+        font-size: x-large;
+        }
+
+    body{
+        background-image: url(media/upscale.png); background-size: cover; background-repeat: no-repeat; 
+        text-align: center;
+    }
+    
+
+
+    form{
+        line-height: 4;
+    }
+
+    p{
+        font-size: 200%;
+        font-weight: bold;
+        text-align: center;
+        margin-top: 160px;
+    }
+    
+    input{
+        border-radius: 8px;
+        background-color: beige;
+        padding-top: 10px;
+        padding-left: 10px;        
+    }
+
+    #submit{
+        background-color: rgb(247, 177, 47);
+        padding-left: 160px;
+        padding-right: 160px;
+        margin-left: 35px;
+        /* padding: 13px 130px 5px 130px; */
+    }
+
+</style>
+<body >
+    <p>Log Into Your Account</p>
+    <form action="" method="post" target="">
+        <!-- <label for="mail">E-Mail: </label> -->
+        <input type="email" id="mail" placeholder="Enter Your E-Mail">
+        <br>
+        <!-- <label for="phone">Phone Number: </label> -->
+        <input type="text" id="phone" placeholder="Enter Your Phone No.">
+        <br>
+        <!-- <label for="pwd">Password: </label> -->
+        <input type="password" name="pwd" id="pwd" placeholder="Enter Your Password">
+        <br>
+        <a href="" onclick="alert('Should have remembered it bozo')">Forgot Password?</a>
+        <br>
+        <input type="submit" value="Log In" id="submit"  onclick="alert('Log In Succesful!')">
+        &nbsp; &nbsp; &nbsp;
+        <!-- <input type="reset" style="padding: 13px 20px 5px 20px;"  > -->
+    </form>
+</body>
+</html>
